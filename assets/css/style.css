@@ -3,16 +3,16 @@
     display: grid;  
     font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: 
-        "header"
+        "encabezado"
         "contenido"
-        "footer";
+        "rodapie";
     grid-template-columns: auto;
     grid-template-rows: 50px 100vh auto; /* header=50px contenido=auto footer=auto 
                                             100vh (100 virtual height)*/
 }
 
 .encabezado {
-    
+    /* grid-area: encabezado; */
 }
 
 .contenido {
@@ -22,5 +22,5 @@
 }
 
 .rodapie { 
-
+    /* grid-area: rodapie; */
 }
