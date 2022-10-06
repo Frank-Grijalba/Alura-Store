@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px) {
 
+    .menu__link{
+        padding: 0 0.2rem;
+    }
+
     .destaques__secundario:nth-child(2),
     .destaques__secundario:nth-child(3),
     .destaques__secundario:nth-child(4),
